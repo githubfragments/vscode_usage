@@ -1,1 +1,7 @@
 
+1. 不能跳转，报Jedi client: could't create connection to server：
+解决方法：
+（1）确保本地和远程服务器安装了python和pylane
+（2）在用户的setting.json中将python.language 改成pylane
+（3）解决方法参考：
+https://bobbyhadz.com/blog/vscode-python-jedi-client-couldnt-create-connection-to-server
